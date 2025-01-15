@@ -44,7 +44,7 @@ a:hover {
 
 .btn {
     padding:12px 24px;
-    width: 99px;
+    /* width: 99px; */
     height: 52px;
     background-color: black;
     color: white;
@@ -57,12 +57,195 @@ a:hover {
 }
 
 .btn:hover {
-    background-color: #fff;
-    color: #000;
-    box-shadow: 0 0 0 1px #000;
+    background-color: #676767;
+    color: #fff;
+    box-shadow: 0 0 0 0.5px #454545;
 }
 
-/* Hero section */
+.btn-secondary {
+    padding: 12px 24px;
+    height: 52px;
+    background-color: #E6E6E6;
+    color: black;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 16px;
+    font-weight: 500;
+    box-shadow: 0 0 0 0.5px #454545;
+}
+
+.btn-secondary:hover {
+    background-color: #c3c0c0;
+    color: #000;
+}
+
+
+/* Leading page */
+.hero {
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.hero-title {
+    width: 950px;
+}
+
+.heading-1 {
+    margin: 0;
+    font-size: 64px;
+    font-weight: 800;
+}
+
+.sub-heading {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 24px;
+    font-weight: 400;
+    color: #000/75;
+}
+
+.hero-image-home {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* Section 1 landing */
+
+.section-1-card-lists {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px;
+}
+
+.section-1-card-image {
+    margin-bottom: 24px;
+    width: 100%;
+    border-radius: 8px;
+    /* object-fit: cover; */
+}
+
+
+/* Section 2  leading */
+.section-2 {
+    margin-top: 180px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 32px;
+}
+
+.section-2-text {
+    width: 587px;
+    margin-top: 48px;
+    margin-bottom: 48px;
+}
+.section-2-image-side {
+    width: 100%;
+    height: 704px;
+    border-radius: 8px;
+}
+
+.section-2-btn {
+    display: flex;
+    gap: 8px;
+}
+
+
+/* Section 3 landing */
+.section-3 {
+    margin-top: 180px;
+}
+
+.section-3-card-lists {
+    margin-top: 48px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 31px;
+}
+
+.section-3-image {
+    margin-bottom: 32px;
+    width: 100%;
+    border-radius: 8px;
+}
+
+
+/* Section 4 landing */
+.section-4 {
+    margin-top: 180px;
+}
+.section-4-card-lists {
+    margin-top: 48px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 32px;
+}
+
+.section-4-card-quote {
+    padding: 32px;
+    border-radius: 12px;
+    border: none;
+    box-shadow: 0 0 0 1px #E6E6E6;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.section-4-card-quote:hover {
+    border: #E6E6E6;
+    box-shadow: -2px 2px 6px 2px #E6E6E6;
+}
+
+.section-4-avatar-quote-user {
+    margin-top: 48px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 16px;
+    
+}
+
+.section-4-card-quote-image {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.avatar-user-info{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+
+/* section 5 landing */
+.section-5 {
+    padding: inherit;
+    margin-top: 180px;
+    margin-left: -80px;
+    margin-right: -80px;
+    width: calc(100% + 160px); /* add 160px to counteract the left and right margins*/
+    height: 236px;
+    background-color: whitesmoke;
+    /* background-size: 100% 100%; */
+}
+
+.section-5-content {
+    margin: 0 80px;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+/* Hero section details page*/
 .card {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -100,7 +283,7 @@ a:hover {
 .heading-2 {
     margin: 0;
     font-size: 48px;
-    font-weight: 700px;
+    font-weight: 700;
 }
 
 .card-caption {
@@ -203,4 +386,10 @@ a:hover {
     gap: 24px;
     font-size: 24px;
     color: #828282;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.icon-width:hover {
+    color: #000;
 }
