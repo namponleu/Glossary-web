@@ -4,25 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Article</title>
+
     <link rel="stylesheet" href="../styles/style.css">
+    <script src="https://kit.fontawesome.com/3f18c6ef35.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header class="nav">
-        <a href="/">Glossary</a>
-        <div class="items">
-            <a href="./pages/product-details.html" class="items">Shop</a>
-            <a href="./pages/article.html" class="items">Article</a>
-            <a href="./pages/about-us.html" class="items">About Us</a>
-            <Button class="btn"> Button</Button>
+    <nav class="nav">
+        <a href="/" class="logo">Glossary</a>
+        <div class="navbar-items">
+            <ul class="navbar-links">
+                <li><a href="./pages/Shop.html">Shop</a></li>
+                <li><a href="./pages/article.html">Article</a></li>
+                <li><a href="./pages/about-us.html">About Us</a></li>
+            </ul>
+            <button class="btn"> Button</button>
         </div>
-    </header>
+    </nav>
 
-    <main>
+    <main class="container">
         <!-- Root section -->
         <section>
             <div style="margin-bottom: 80px;">
                 <h1 class="heading-1" style="margin-bottom: 24px;">Article or post title</h1>
-                <p class="card-caption">Subheading that sets up context, shares more info about the author, or generally gets people psyched to keep reading</p>
+                <p class="sub-heading">Subheading that sets up context, shares more info about the author, or generally gets people psyched to keep reading</p>
             </div>
             <img class="hero-image-home" src="/assets/article page/Hero Image.png" alt="Root image">
             <div class="text-content">
@@ -49,35 +53,35 @@
                 <div class="article-card">
                     <img class="article-card-image" src="/assets/article page/product-3.png" alt="image-4">
                     <div class="article-card-info">
-                        <h3 class="text" style="margin-bottom: 8px;">Title</h3>
-                        <p class="card-caption" style="margin: 0; font-size: 20px;">Author</p>
+                        <h3 class="card-caption">Title</h3>
+                        <p class="card-details">Author</p>
                     </div>
                 </div>
                 <div class="article-card">
                     <img class="article-card-image" src="/assets/article page/product-7.png" alt="image-5">
                     <div class="article-card-info">
-                        <h3 class="text" style="margin-bottom: 8px;">Title</h3>
-                        <p class="card-caption" style="margin: 0; font-size: 20px;">Author</p>
+                        <h3 class="card-caption">Title</h3>
+                        <p class="card-details">Author</p>
                     </div>
                 </div>
                 <div class="article-card">
                     <img class="article-card-image" src="/assets/article page/product-5.png" alt="image-6">
                     <div class="article-card-info">
-                        <h3 class="text" style="margin-bottom: 8px;">Title</h3>
-                        <p class="card-caption" style="margin: 0; font-size: 20px;">Author</p>
+                        <h3 class="card-caption">Title</h3>
+                        <p class="card-details">Author</p>
                     </div>
                 </div>
             </div>
         </section>
     </main>
 
-    <footer>
-        <!-- Footer -->
+    <!-- Footer -->
+    <footer class="footer">
         <!-- horizontal rule -->
         <hr class="line-straight">
-        <div class="footer">
+        <div class="footer-body">
             <div class="footer-left-side">
-                <a href="/" style="font-size: 24px; margin-top: 18px;">Glossary</a>
+                <a href="/" class="logo">Glossary</a>
                 <p class="icon">
                     <i class="fa-brands fa-facebook icon-width"></i>
                     <i class="fa-brands fa-linkedin icon-width"></i>
@@ -107,5 +111,7 @@
             </div>
         </div>
     </footer>
+
+    <script src="/script.js"></script>
 </body>
 </html>

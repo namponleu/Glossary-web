@@ -4,86 +4,89 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shop | Details</title>
+
     <link rel="stylesheet" href="../styles/style.css">
     <script src="https://kit.fontawesome.com/3f18c6ef35.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header class="nav">
-        <a href="/">Glossary</a>
-        <div class="items">
-            <a href="./pages/product-details.html" class="items">Shop</a>
-            <a href="./pages/article.html" class="items">Article</a>
-            <a href="./pages/about-us.html" class="items">About Us</a>
-            <Button class="btn"> Button</Button>
+    <nav class="nav">
+        <a href="/" class="logo">Glossary</a>
+        <div class="navbar-items">
+            <ul class="navbar-links">
+                <li><a href="./pages/Shop.html">Shop</a></li>
+                <li><a href="./pages/article.html">Article</a></li>
+                <li><a href="./pages/about-us.html">About Us</a></li>
+            </ul>
+            <button class="btn"> Button</button>
+        </div>
+    </nav>
+
+    <!-- Hero header product -->
+    <header class="header" style="margin-top: 40px;">
+        <div class="card">
+            <img class="hero-card-img" src="../assets/details page/product-1.png" alt="hero picture">
+            <div class="hero-card-details">
+                <h2 class="heading-2">Product name</h2>
+                <p class="card-caption" style="color: #828282;">Subheading</p>
+                <p class="price-products">$10.99</p>
+                <p class="card-details">Body text for describing what this product is and why this product is simply a must-buy.</p>
+                <button class="btn">Add to card</button>
+                <p class="card-details">Text box for additional details or fine print</p>
+            </div>
         </div>
     </header>
 
-    <main>
-        <!-- Hero section -->
-        <section>
-            <div class="card">
-                <img class="hero-card-img" src="../assets/details page/product-1.png" alt="hero picture">
-                <div class="card-body">
-                    <h2 class="heading-2">Product name</h2>
-                    <p class="card-caption">Subheading</p>
-                    <p class="price">$10.99</p>
-                    <p class="card-body-text">Body text for describing what this product is and why this product is simply a must-buy.</p>
-                    <button class="card-btn">Add to card</button>
-                    <p style="font-size: 16px; font-weight: 500; color: #828282;">Text box for additional details or fine print</p>
-                </div>
-            </div>
-        </section>
-
-        <!-- section 2 related products -->
+    <main class="container">
+        <!-- section 1 related products -->
         <section style="margin-top: 80px;">
             <h2 class="heading-2">Related products</h2>
-            <div style="margin-top: 32px;" class="card-lists">
-                <div class="card-list-item">
-                    <img class="lists-card-img" src="../assets/details page/product-2.png" alt="hero picture">
+            <div class="card-lists-products">
+                <div class="card-lists-item-products">
+                    <img class="card-lists-img" src="../assets/details page/product-2.png" alt="hero picture">
                     <div class="card-body">
-                        <p class="list-card-header">Subheading</p>
-                        <p class="list-card-text">Body text for describing what this product is and why this product is simply a must-buy.</p>
-                        <p class="list-card-price">$10.99</p>
+                        <p class="card-caption">Subheading</p>
+                        <p class="card-details">Body text for describing what this product is and why this product is simply a must-buy.</p>
+                        <p class="price-lists-products">$10.99</p>
                     </div>
                 </div>
-                <div class="card-list-item">
-                    <img class="lists-card-img" src="../assets/details page/product-3.png" alt="hero picture">
+                <div class="card-lists-item-products">
+                    <img class="card-lists-img" src="../assets/details page/product-3.png" alt="hero picture">
                     <div class="card-body">
-                        <p class="list-card-header">Subheading</p>
-                        <p class="list-card-text">Body text for describing what this product is and why this product is simply a must-buy.</p>
-                        <p class="list-card-price">$10.99</p>
+                        <p class="card-caption">Subheading</p>
+                        <p class="card-details">Body text for describing what this product is and why this product is simply a must-buy.</p>
+                        <p class="price-lists-products">$10.99</p>
                     </div>
                 </div>
-                <div class="card-list-item">
-                    <img class="lists-card-img" src="../assets/details page/product-4.png" alt="hero picture">
+                <div class="card-lists-item-products">
+                    <img class="card-lists-img" src="../assets/details page/product-4.png" alt="hero picture">
                     <div class="card-body">
-                        <p class="list-card-header">Subheading</p>
-                        <p class="list-card-text">Body text for describing what this product is and why this product is simply a must-buy.</p>
-                        <p class="list-card-price">$10.99</p>
+                        <p class="card-caption">Subheading</p>
+                        <p class="card-details">Body text for describing what this product is and why this product is simply a must-buy.</p>
+                        <p class="price-lists-products">$10.99</p>
                     </div>
                 </div>
-                <div class="card-list-item">
-                    <img class="lists-card-img" src="../assets/details page/product-5.png" alt="hero picture">
+                <div class="card-lists-item-products">
+                    <img class="card-lists-img" src="../assets/details page/product-5.png" alt="hero picture">
                     <div class="card-body">
-                        <p class="list-card-header">Subheading</p>
-                        <p class="list-card-text">Body text for describing what this product is and why this product is simply a must-buy.</p>
-                        <p class="list-card-price">$10.99</p>
+                        <p class="card-caption">Subheading</p>
+                        <p class="card-details">Body text for describing what this product is and why this product is simply a must-buy.</p>
+                        <p class="price-lists-products">$10.99</p>
                     </div>
                 </div>
-                <div class="card-list-item">
-                    <img class="lists-card-img" src="../assets/details page/product-6.png" alt="hero picture">
+                <div class="card-lists-item-products">
+                    <img class="card-lists-img" src="../assets/details page/product-6.png" alt="hero picture">
                     <div class="card-body">
-                        <p class="list-card-header">Subheading</p>
-                        <p class="list-card-text">Body text for describing what this product is and why this product is simply a must-buy.</p>
-                        <p class="list-card-price">$10.99</p>
+                        <p class="card-caption">Subheading</p>
+                        <p class="card-details">Body text for describing what this product is and why this product is simply a must-buy.</p>
+                        <p class="price-lists-products">$10.99</p>
                     </div>
                 </div>
-                <div class="card-list-item">
-                    <img class="lists-card-img" src="../assets/details page/product-7.png" alt="hero picture">
+                <div class="card-lists-item-products">
+                    <img class="card-lists-img" src="../assets/details page/product-7.png" alt="hero picture">
                     <div class="card-body">
-                        <p class="list-card-header">Subheading</p>
-                        <p class="list-card-text">Body text for describing what this product is and why this product is simply a must-buy.</p>
-                        <p class="list-card-price">$10.99</p>
+                        <p class="card-caption">Subheading</p>
+                        <p class="card-details">Body text for describing what this product is and why this product is simply a must-buy.</p>
+                        <p class="price-lists-products">$10.99</p>
                     </div>
                 </div>
             </div>
@@ -91,38 +94,42 @@
     </main>
 
     <!-- Footer -->
-    <!-- horizontal rule -->
-    <hr class="line-straight">
-    <div class="footer">
-        <div class="footer-left-side">
-            <a href="/" style="font-size: 24px; margin-top: 18px;">Glossary</a>
-            <p class="icon">
-                <i class="fa-brands fa-facebook icon-width"></i>
-                <i class="fa-brands fa-linkedin icon-width"></i>
-                <i class="fa-brands fa-youtube icon-width"></i>
-                <i class="fa-brands fa-square-instagram icon-width"></i>
-            </p>
+    <footer class="footer">
+        <!-- horizontal rule -->
+        <hr class="line-straight">
+        <div class="footer-body">
+            <div class="footer-left-side">
+                <a href="/" class="logo">Glossary</a>
+                <p class="icon">
+                    <i class="fa-brands fa-facebook icon-width"></i>
+                    <i class="fa-brands fa-linkedin icon-width"></i>
+                    <i class="fa-brands fa-youtube icon-width"></i>
+                    <i class="fa-brands fa-square-instagram icon-width"></i>
+                </p>
+            </div>
+            <div class="footer-right-side">
+                <div class="footer-items">
+                    <h3 class="heading-3">Topic</h3>
+                    <a href="" class="a-footer">page</a>
+                    <a href="" class="a-footer">page</a>
+                    <a href="" class="a-footer">page</a>
+                </div>
+                <div class="footer-items">    
+                    <h3 class="heading-3">Topic</h3>
+                    <a href="" class="a-footer">page</a>
+                    <a href="" class="a-footer">page</a>
+                    <a href="" class="a-footer">page</a>
+                </div>
+                <div class="footer-items">
+                    <h3 class="heading-3">Topic</h3>
+                    <a href="" class="a-footer">page</a>
+                    <a href="" class="a-footer">page</a>
+                    <a href="" class="a-footer">page</a>
+                </div>
+            </div>
         </div>
-        <div class="footer-right-side">
-            <div class="footer-items">
-                <h3 class="heading-3">Topic</h3>
-                <a href="" class="a-footer">page</a>
-                <a href="" class="a-footer">page</a>
-                <a href="" class="a-footer">page</a>
-            </div>
-            <div class="footer-items">    
-                <h3 class="heading-3">Topic</h3>
-                <a href="" class="a-footer">page</a>
-                <a href="" class="a-footer">page</a>
-                <a href="" class="a-footer">page</a>
-            </div>
-            <div class="footer-items">
-                <h3 class="heading-3">Topic</h3>
-                <a href="" class="a-footer">page</a>
-                <a href="" class="a-footer">page</a>
-                <a href="" class="a-footer">page</a>
-            </div>
-        </div>
-    </div>
+    </footer>
+
+    <script src="/script.js"></script>
 </body>
 </html>
