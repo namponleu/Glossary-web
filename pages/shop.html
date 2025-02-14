@@ -10,20 +10,36 @@
 </head>
 <body class="shop-page">
     <div class="banner">
-        <nav class="nav">
-            <a href="/" class="logo">Glossary</a>
-            <div class="navbar-items">
-                <ul class="navbar-links">
-                    <li><a href="./pages/Shop.html">Shop</a></li>
-                    <li><a href="./pages/article.html">Article</a></li>
-                    <li><a href="./pages/about-us.html">About Us</a></li>
-                </ul>
-                <button class="btn"> Button</button>
+        <header class="header">
+            <nav class="navbar container">
+                <a href="/" class="navbar__logo">Glossary</a>
+                
+                <div class="navbar__menu" id="navbar-menu">
+                    <ul class="navbar__lists">
+                        <li><a href="./pages/Shop.html" class="navbar__links">Shop</a></li>
+                        <li><a href="./pages/article.html" class="navbar__links">Article</a></li>
+                        <li><a href="./pages/about-us.html" class="navbar__links">About Us</a></li>
+                        <li><button class="btn"> Button</button>                </li>
+                    </ul>
+                    
+                    <!-- Close button -->
+                    <div class="navbar__close" id="navbar-close">
+                        <i class="fa-solid fa-xmark"></i>
+                </div>
+            </div>
+            
+            <!-- Actions Navbar -->
+            <div class="navbar__actions">
+                <!-- Toggle Button -->
+                <div class="navbar__toggle" id="navbar-toggle">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
             </div>
         </nav>
+    </header>
         <div class="contents">
-            <h1 class="heading-1">Shop title</h1>
-            <h3 class="sub-heading" style="color: #fff;">Subheading with description of your shopping site</h3>
+            <h1>Shop title</h1>
+            <h3>Subheading with description of your shopping site</h3>
             <div class="contents-btn">
                 <button class="btn" style="padding: 20px 30px; display: flex; align-items: center;">Button</button>
             </div>
@@ -33,10 +49,10 @@
 
     <main class="container">
         <!-- Root section -->
-        <section class="section-1-shop">
-            <div class="section-1-shop-text">
-                <h2 class="heading-2">Heading</h2>
-                <p class="sub-heading">A subheading for this section, as long or as short as you like</p>
+        <section class="shop__section__1">
+            <div class="shop__text__section__1">
+                <h2>Heading</h2>
+                <p>A subheading for this section, as long or as short as you like</p>
                 <div class="section-2-btn">
                     <button class="btn">Button</button>
                     <button class="btn-secondary">Secondary button</button>
@@ -45,11 +61,12 @@
             <img style="border-radius: 8px;" src="/assets/shop page/image-2.png" alt="watermelon">
         </section>
 
-        <section class="section-1-shop">
+        <!-- Section 2 -->
+        <section class="shop__section__1">
             <img style="border-radius: 8px;" src="/assets/shop page/image-1.png" alt="watermelon">
-            <div class="section-1-shop-text">
-                <h1 class="heading-2">Heading</h1>
-                <p class="sub-heading">A subheading for this section, as long or as short as you like</p>
+            <div class="shop__text__section__1">
+                <h2>Heading</h2>
+                <p>A subheading for this section, as long or as short as you like</p>
                 <div class="section-2-btn">
                     <button class="btn">Button</button>
                     <button class="btn-secondary">Secondary button</button>
@@ -58,62 +75,62 @@
         </section>
 
         <!-- Section 3 -->
-        <section class="section-3-shop">
-            <h2 class="heading-2">Section Heading</h2>   
-            <div class="card-lists-products">
-                <div class="card-lists-item-products">
-                    <img class="card-lists-img" src="../assets/details page/product-2.png" alt="hero picture">
-                    <div class="card-body">
-                        <p class="card-caption">Subheading</p>
-                        <p class="card-details">Description of first product</p>
-                        <p class="price-lists-products">$10.99</p>
+        <section style="margin-top: 4rem;">
+            <h2>Section Heading</h2>   
+            <div class="card__lists">
+                <div class="card">
+                    <img class="card__lists__img" src="../assets/details page/product-2.png" alt="hero picture">
+                    <div class="card__body">
+                        <h3>Subheading</h3>
+                        <p>Description of first product</p>
+                        <p class="price">$10.99</p>
                     </div>
                 </div>
-                <div class="card-lists-item-products">
-                    <img class="card-lists-img" src="../assets/details page/product-3.png" alt="hero picture">
-                    <div class="card-body">
-                        <p class="card-caption">Subheading</p>
-                        <p class="card-details">Description of second product</p>
-                        <p class="price-lists-products">$10.99</p>
+                <div class="card">
+                    <img class="card__lists__img" src="../assets/details page/product-3.png" alt="hero picture">
+                    <div class="card__body">
+                        <h3>Subheading</h3>
+                        <p>Description of second product</p>
+                        <p class="price">$10.99</p>
                     </div>
                 </div>
-                <div class="card-lists-item-products">
-                    <img class="card-lists-img" src="../assets/details page/product-4.png" alt="hero picture">
-                    <div class="card-body">
-                        <p class="card-caption">Subheading</p>
-                        <p class="card-details">Description of second product</p>
-                        <p class="price-lists-products">$10.99</p>
+                <div class="card">
+                    <img class="card__lists__img" src="../assets/details page/product-4.png" alt="hero picture">
+                    <div class="card__body">
+                        <h3>Subheading</h3>
+                        <p>Description of second product</p>
+                        <p class="price">$10.99</p>
                     </div>
                 </div>
-                <div class="card-lists-item-products">
-                    <img class="card-lists-img" src="../assets/details page/product-5.png" alt="hero picture">
-                    <div class="card-body">
-                        <p class="card-caption">Subheading</p>
-                        <p class="card-details">Description of second product</p>
-                        <p class="price-lists-products">$10.99</p>
+                <div class="card">
+                    <img class="card__lists__img" src="../assets/details page/product-5.png" alt="hero picture">
+                    <div class="card__body">
+                        <h3>Subheading</h3>
+                        <p>Description of second product</p>
+                        <p class="price">$10.99</p>
                     </div>
                 </div>
-                <div class="card-lists-item-products">
-                    <img class="card-lists-img" src="../assets/details page/product-6.png" alt="hero picture">
-                    <div class="card-body">
-                        <p class="card-caption">Subheading</p>
-                        <p class="card-details">Description of second product</p>
-                        <p class="price-lists-products">$10.99</p>
+                <div class="card">
+                    <img class="card__lists__img" src="../assets/details page/product-6.png" alt="hero picture">
+                    <div class="card__body">
+                        <h3>Subheading</h3>
+                        <p>Description of second product</p>
+                        <p class="price">$10.99</p>
                     </div>
                 </div>
-                <div class="card-lists-item-products">
-                    <img class="card-lists-img" src="../assets/details page/product-7.png" alt="hero picture">
-                    <div class="card-body">
-                        <p class="card-caption">Subheading</p>
-                        <p class="card-details">Description of second product</p>
-                        <p class="price-lists-products">$10.99</p>
+                <div class="card">
+                    <img class="card__lists__img" src="../assets/details page/product-7.png" alt="hero picture">
+                    <div class="card__body">
+                        <h3>Subheading</h3>
+                        <p>Description of second product</p>
+                        <p class="price">$10.99</p>
                     </div>
                 </div>
             </div>        
         </section>
 
         <!-- Section 4 -->
-        <section class="section-4-shop">
+        <section style="margin-top: 4rem;">
             <h1 class="heading-2">Section heading</h1>
             <div class="section-4-shop-content">
                 <div class="section-4-shop-content-info">
@@ -146,40 +163,52 @@
         
     <!-- Footer -->
     <footer class="footer">
-        <!-- horizontal rule -->
-        <hr class="line-straight">
-        <div class="footer-body">
-            <div class="footer-left-side">
-                <a href="/" class="logo">Glossary</a>
-                <p class="icon">
-                    <i class="fa-brands fa-facebook icon-width"></i>
-                    <i class="fa-brands fa-linkedin icon-width"></i>
-                    <i class="fa-brands fa-youtube icon-width"></i>
-                    <i class="fa-brands fa-square-instagram icon-width"></i>
-                </p>
+        <div class="container">
+          <!-- horizontal rule -->
+          <!-- <hr> -->
+          <div class="footer__body">
+            <div class="footer__left__side">
+              <a href="/" class="navbar__logo">Glossary</a>
+              <p class="footer_text">
+                Discover quality and variety at our Glossary Store, where you'll
+                find a curated selection of products designed to meet your needs.
+                Enjoy easy shopping and excellent customer service with every
+                visit.
+              </p>
+              <p class="icon">
+                <i class="fa-brands fa-facebook icon-width"></i>
+                <i class="fa-brands fa-linkedin icon-width"></i>
+                <i class="fa-brands fa-youtube icon-width"></i>
+                <i class="fa-brands fa-square-instagram icon-width"></i>
+              </p>
             </div>
-            <div class="footer-right-side">
-                <div class="footer-items">
-                    <h3 class="heading-3">Topic</h3>
-                    <a href="" class="a-footer">page</a>
-                    <a href="" class="a-footer">page</a>
-                    <a href="" class="a-footer">page</a>
-                </div>
-                <div class="footer-items">    
-                    <h3 class="heading-3">Topic</h3>
-                    <a href="" class="a-footer">page</a>
-                    <a href="" class="a-footer">page</a>
-                    <a href="" class="a-footer">page</a>
-                </div>
-                <div class="footer-items">
-                    <h3 class="heading-3">Topic</h3>
-                    <a href="" class="a-footer">page</a>
-                    <a href="" class="a-footer">page</a>
-                    <a href="" class="a-footer">page</a>
-                </div>
+            <div class="footer__right__side" id="footer-right-side">
+              <div class="footer-items">
+                <h3>Shop</h3>
+                <a href="" class="a-footer">page</a>
+                <a href="" class="a-footer">page</a>
+                <a href="" class="a-footer">page</a>
+              </div>
+              <div class="footer-items">
+                <h3>Article</h3>
+                <a href="" class="a-footer">page</a>
+                <a href="" class="a-footer">page</a>
+                <a href="" class="a-footer">page</a>
+              </div>
+              <div class="footer-items">
+                <h3>About Us</h3>
+                <a href="" class="a-footer">page</a>
+                <a href="" class="a-footer">page</a>
+                <a href="" class="a-footer">page</a>
+              </div>
             </div>
+          </div>
+          <div class="footer__bottom">
+              <hr class="hr">
+              <p>&copy; Glossary, Inc.</p>
+          </div>
         </div>
-    </footer>
+      </footer>
 
     <script src="/script.js"></script>
 </body>

@@ -1,203 +1,276 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Glossary</title>
 
-    <link rel="stylesheet" href="./styles/style.css">
-    <script src="https://kit.fontawesome.com/3f18c6ef35.js" crossorigin="anonymous"></script>
-</head>
-<body>
-    <nav class="nav">
-        <a href="/" class="logo">Glossary</a>
-        <div class="navbar-items">
-            <ul class="navbar-links">
-                <li><a href="./pages/Shop.html">Shop</a></li>
-                <li><a href="./pages/article.html">Article</a></li>
-                <li><a href="./pages/about-us.html">About Us</a></li>
-            </ul>
-            <button class="btn"> Button</button>
-        </div>
-    </nav>
+    <link rel="stylesheet" href="./styles/style.css" />
+    <script
+      src="https://kit.fontawesome.com/3f18c6ef35.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navbar container">
+        <a href="/" class="navbar__logo">Glossary</a>
 
-    <header class="header" style="margin-top: 40px;">
-        <!-- Hero header -->
-        <div class="hero-landing">
-            <div>
-                <div class="hero-landing-text">
-                    <h1 class="heading-1">Landing page title</h1>
-                    <p class="sub-heading">Subheading that sets up context, shares more info about the website, or generally gets people psyched to keep scrolling. </p>
-                </div>
-                <button class="btn" style="padding: 20px 30px; display: flex; align-items: center;"> Button</button>
-            </div>
-            <img class="hero-image-home" src="/assets/landing page/Hero Image.png" alt="hero Image">
+        <div class="navbar__menu" id="navbar-menu">
+          <ul class="navbar__lists">
+            <li><a href="./pages/Shop.html" class="navbar__links">Shop</a></li>
+            <li>
+              <a href="./pages/article.html" class="navbar__links">Article</a>
+            </li>
+            <li>
+              <a href="./pages/about-us.html" class="navbar__links">About Us</a>
+            </li>
+            <li><button class="btn">log in</button></li>
+          </ul>
+
+          <!-- Close button -->
+          <div class="navbar__close" id="navbar-close">
+            <i class="fa-solid fa-xmark"></i>
+          </div>
         </div>
+
+        <!-- Actions Navbar -->
+        <div class="navbar__actions">
+          <!-- Toggle Button -->
+          <div class="navbar__toggle" id="navbar-toggle">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+        </div>
+      </nav>
     </header>
 
-    <div class="container">
-        <main>
-            <!-- section 1 -->
-            <section style="margin-top: 150px;">
-                <div style="margin-bottom: 32px;">
-                    <h2 class="heading-2">Section heading</h2>
-                </div>
-                <div class="section-1-card-lists">
-                    <div>
-                        <img class="section-1-card-image" src="./assets/landing page/Image.png" alt="image-1">
-                        <div>
-                            <h3 class="card-caption">Subheading</h3>
-                            <p class="card-details">Body text for whatever you'd like to add more to the subheading.</p>
-                        </div>
-                    </div>
-                    
-                    <div>
-                        <img class="section-1-card-image" src="./assets/landing page/Image-1.png" alt="image-2">
-                        <h3 class="card-caption">Subheading</h3>
-                        <p class="card-details">Body text for whatever you'd like to expand on the main point.</p>
-                    </div>
-                    
-                    <div>
-                        <img class="section-1-card-image" src="./assets/landing page/Image-2.png" alt="image-3">
-                        <h3 class="card-caption">Subheading</h3>
-                        <p class="card-details">Body text for whatever you'd like to share more.</p>
-                    </div>
-                </div>
-            </section>
-            
-            <!-- section 2 -->
-            <section class="section-2">
-                <div class="section-2-contents">
-                    <h2 class="heading-2">Section heading</h2>
-                    <div class="section-2-text">
-                        <div>
-                            <h3 class="card-caption">Subheading</h3>
-                            <p class="card-details">Body text for whatever you'd like to expand on the main point.</p>
-                        </div>
-                        <div>
-                            <h3 class="card-caption">Subheading</h3>
-                            <p class="card-details">Body text for whatever you'd like to say. Add main takeaway points, quotes, anecdotes.</p>
-                        </div>
-                        <div>
-                            <h3 class="card-caption">Subheading</h3>
-                            <p class="card-details">Body text for whatever you'd like to expand on the main point. It provides details, explanations, and context.</p>
-                        </div>
-                    </div>
-                    <div class="section-2-btn">
-                        <button class="btn">Button</button>
-                        <button class="btn-secondary">Secondary button</button>
-                    </div>
-                </div>
-                <img class="section-2-image-side" src="./assets/landing page/Image-3.png" alt="image-4">
-            </section>
-            
-            <!-- section 3 -->
-            <section class="section-3">
-                <h2 class="heading-2">Section heading</h2>
-                <div class="section-3-card-lists">
-                    <div class="section-3-card">
-                        <img class="section-3-image" src="./assets/landing page/Image-4.png" alt="image-5">
-                        <h3 class="card-caption">Subheading</h3>
-                        <p class="card-details">Body text for whatever you'd like to add more to the subhheading.</p>
-                    </div>
-                    <div class="section-3-card">
-                        <img class="section-3-image" src="./assets/landing page/Image-5.png" alt="image-6">
-                        <h3 class="card-caption">Subheading</h3>
-                        <p class="card-details">Body text for whatever you'd like to expand on the main point.</p>
-                    </div>
-                </div>
-            </section>
+    <!-- <div class="container"> -->
+    <main class="main container">
+      <!-- Hero Section -->
+      <section>
+        <div class="hero__landing">
+          <h1>Welcome to the dream shopping land</h1>
+          <img src="/assets/landing page/Hero Image.png" alt="hero Image" />
+          <p>
+            Subheading that sets up context, shares more info about the website,
+            or generally gets people psyched to keep scrolling.
+          </p>
+        </div>
+        <!-- <button class="btn" style="padding: 20px 30px; display: flex; align-items: center;"> Button</button> -->
+      </section>
 
-        <!-- section 4 -->
-        <section class="section-4">
-            <h2 class="heading-2">Section heading</h2>
-            <div class="section-4-card-lists">
-                <!-- card quote user 1 -->
-                <div class="section-4-card-quote">
-                    <h3 class="card-caption">"A terrific piece of praise"</h3>
-                    <div class="section-4-avatar-quote-user">
-                        <img class="section-4-card-quote-image" src="./assets/landing page/profile-1.png" alt="user-1">
-                        <div class="avatar-user-info">
-                            <p style="margin: 0;">Name</p>
-                            <p style="margin: 0;">Description</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- card quote user 2 -->
-                <div class="section-4-card-quote">
-                    <h3 class="card-caption">"A fantastic bit of feedback"</h3>
-                    <div class="section-4-avatar-quote-user">
-                        <img class="section-4-card-quote-image" src="./assets/landing page/profile-2.jpg" alt="user-2">
-                        <div class="avatar-user-info">
-                            <p style="margin: 0;">Name</p>
-                            <p style="margin: 0;">Description</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- card quote user 3 -->
-                <div class="section-4-card-quote">
-                    <h3 class="card-caption">"A genuinely glowing review"</h3>
-                    <div class="section-4-avatar-quote-user">
-                        <img class="section-4-card-quote-image" src="./assets/landing page/profile-3.jpg" alt="user-3">
-                        <div class="avatar-user-info">
-                            <p style="margin: 0;">Name</p>
-                            <p style="margin: 0;">Description</p>
-                        </div>
-                    </div>
-                </div>
+      <!-- section 1 -->
+      <section style="margin-top: 2rem">
+        <h2>Section heading</h2>
+        <div class="card__lists">
+          <div class="card">
+            <img src="./assets/landing page/Image.png" alt="image-1" />
+            <div class="card_info">
+              <h3>Subheading</h3>
+              <p class="card_description">
+                Body text for whatever you'd like to add more to the subheading.
+              </p>
+              <div class="card_info_price">
+                <p class="card_price">$10.99</p>
+                <p class="card_buy">
+                  <i class="fa-solid fa-cart-plus"></i>
+                </p>
+              </div>
             </div>
-        </section>
-        
-        <!-- section 5 -->
-        <section class="section-5">
-            <div class="section-5-content">
-                <h2 class="heading-2">Section heading</h2>
-                <div class="section-2-btn">
-                    <button class="btn">Button</button>
-                    <button class="btn-secondary">Secondary button</button>
-                </div>
+          </div>
+
+          <div class="card">
+            <img src="./assets/landing page/Image-1.png" alt="image-2" />
+            <div class="card_info">
+              <h3>Subheading</h3>
+              <p class="card_description">
+                Body text for whatever you'd like to expand on the main point.
+              </p>
+              <div class="card_info_price">
+                <p class="card_price">$10.99</p>
+                <p class="card_buy">
+                  <i class="fa-solid fa-cart-plus"></i>
+                </p>
+              </div>
             </div>
-        </section>
+          </div>
+
+          <div class="card">
+            <img src="./assets/landing page/Image-2.png" alt="image-3" />
+            <div class="card_info">
+              <h3>Subheading</h3>
+              <p class="card_description">
+                Body text for whatever you'd like to share more.
+              </p>
+              <div class="card_info_price">
+                <p class="card_price">$10.99</p>
+                <p class="card_buy">
+                  <i class="fa-solid fa-cart-plus"></i>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- section 2 -->
+      <section class="home_section_2">
+        <div class="home_section-2_contents">
+          <h2>Section heading</h2>
+          <div class="home_section-2_text">
+            <div>
+              <h3>Subheading</h3>
+              <p>
+                Body text for whatever you'd like to expand on the main point.
+              </p>
+            </div>
+            <div>
+              <h3>Subheading</h3>
+              <p>
+                Body text for whatever you'd like to say. Add main takeaway
+                points, quotes, anecdotes.
+              </p>
+            </div>
+            <div>
+              <h3>Subheading</h3>
+              <p>
+                Body text for whatever you'd like to expand on the main point.
+                It provides details, explanations, and context.
+              </p>
+            </div>
+          </div>
+        </div>
+        <img
+          class="home_section-2-image"
+          src="./assets/landing page/Image-3.png"
+          alt="image-4"
+        />
+      </section>
+
+      <!-- section 3 -->
+      <section style="margin-top: 2rem">
+        <h2>Section heading</h2>
+        <div class="card__lists">
+          <div class="card">
+            <img src="./assets/landing page/Image-4.png" alt="image-5" />
+            <h3>Subheading</h3>
+            <p class="card_description">
+              Body text for whatever you'd like to add more to the subhheading.
+            </p>
+          </div>
+          <div class="card">
+            <img src="./assets/landing page/Image-5.png" alt="image-6" />
+            <h3>Subheading</h3>
+            <p class="card_description">
+              Body text for whatever you'd like to expand on the main point.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- section 4 -->
+      <section style="margin-top: 2rem">
+        <h2>Section heading</h2>
+        <div class="home_section-4-card__list">
+          <!-- card quote user 1 -->
+          <div class="home_section-4-card_quote">
+            <h3>"A terrific piece of praise"</h3>
+            <div class="home_section-4-avatar_user">
+              <img
+                class="home_section-4-user_profile"
+                src="./assets/landing page/profile-1.png"
+                alt="user-1"
+              />
+              <div class="home_section-4-user_info">
+                <p>Name</p>
+                <p>Description</p>
+              </div>
+            </div>
+          </div>
+          <!-- card quote user 2 -->
+          <div class="home_section-4-card_quote">
+            <h3 class="">"A fantastic bit of feedback"</h3>
+            <div class="home_section-4-avatar_user">
+              <img
+                class="home_section-4-user_profile"
+                src="./assets/landing page/profile-2.jpg"
+                alt="user-2"
+              />
+              <div class="home_section-4-user_info">
+                <p>Name</p>
+                <p>Description</p>
+              </div>
+            </div>
+          </div>
+          <!-- card quote user 3 -->
+          <div class="home_section-4-card_quote">
+            <h3 class="">"A genuinely glowing review"</h3>
+            <div class="home_section-4-avatar_user">
+              <img
+                class="home_section-4-user_profile"
+                src="./assets/landing page/profile-3.jpg"
+                alt="user-3"
+              />
+              <div class="home_section-4-user_info">
+                <p>Name</p>
+                <p>Description</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
-</div>
-    
+    <!-- </div> -->
+
     <!-- Footer -->
     <footer class="footer">
+      <div class="container">
         <!-- horizontal rule -->
-        <hr class="line-straight">
-        <div class="footer-body">
-            <div class="footer-left-side">
-                <a href="/" class="logo">Glossary</a>
-                <p class="icon">
-                    <i class="fa-brands fa-facebook icon-width"></i>
-                    <i class="fa-brands fa-linkedin icon-width"></i>
-                    <i class="fa-brands fa-youtube icon-width"></i>
-                    <i class="fa-brands fa-square-instagram icon-width"></i>
-                </p>
+        <!-- <hr> -->
+        <div class="footer__body">
+          <div class="footer__left__side">
+            <a href="/" class="navbar__logo">Glossary</a>
+            <p class="footer_text">
+              Discover quality and variety at our Glossary Store, where you'll
+              find a curated selection of products designed to meet your needs.
+              Enjoy easy shopping and excellent customer service with every
+              visit.
+            </p>
+            <p class="icon">
+              <i class="fa-brands fa-facebook icon-width"></i>
+              <i class="fa-brands fa-linkedin icon-width"></i>
+              <i class="fa-brands fa-youtube icon-width"></i>
+              <i class="fa-brands fa-square-instagram icon-width"></i>
+            </p>
+          </div>
+          <div class="footer__right__side" id="footer-right-side">
+            <div class="footer-items">
+              <h3>Shop</h3>
+              <a href="" class="a-footer">page</a>
+              <a href="" class="a-footer">page</a>
+              <a href="" class="a-footer">page</a>
             </div>
-            <div class="footer-right-side">
-                <div class="footer-items">
-                    <h3 class="heading-3">Topic</h3>
-                    <a href="" class="a-footer">page</a>
-                    <a href="" class="a-footer">page</a>
-                    <a href="" class="a-footer">page</a>
-                </div>
-                <div class="footer-items">    
-                    <h3 class="heading-3">Topic</h3>
-                    <a href="" class="a-footer">page</a>
-                    <a href="" class="a-footer">page</a>
-                    <a href="" class="a-footer">page</a>
-                </div>
-                <div class="footer-items">
-                    <h3 class="heading-3">Topic</h3>
-                    <a href="" class="a-footer">page</a>
-                    <a href="" class="a-footer">page</a>
-                    <a href="" class="a-footer">page</a>
-                </div>
+            <div class="footer-items">
+              <h3>Article</h3>
+              <a href="" class="a-footer">page</a>
+              <a href="" class="a-footer">page</a>
+              <a href="" class="a-footer">page</a>
             </div>
+            <div class="footer-items">
+              <h3>About Us</h3>
+              <a href="" class="a-footer">page</a>
+              <a href="" class="a-footer">page</a>
+              <a href="" class="a-footer">page</a>
+            </div>
+          </div>
         </div>
+        <div class="footer__bottom">
+            <hr class="hr">
+            <p>&copy; 2025 Glossary, Inc.</p>
+        </div>
+      </div>
     </footer>
 
     <script src="/script.js"></script>
-</body>
+  </body>
 </html>
