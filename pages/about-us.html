@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>About Us</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/style.css">
     <script src="https://kit.fontawesome.com/3f18c6ef35.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -18,7 +18,7 @@
                     <li><a href="./pages/Shop.html" class="navbar__links">Shop</a></li>
                     <li><a href="./pages/article.html" class="navbar__links">Article</a></li>
                     <li><a href="./pages/about-us.html" class="navbar__links">About Us</a></li>
-                    <li><button class="btn"> Button</button>                </li>
+                    <li><button class="btn">Log in</button>                </li>
                 </ul>
                 
                 <!-- Close button -->
@@ -38,22 +38,47 @@
 </header>
     
     <!-- hero header -->
-    <section class="container" style="margin-top: 40px;">
-        <div class="section-header">
-            <div class="header-text-side">
-                <h1 class="heading-1">About</h1>
-                <h3 class="sub-heading">Subheading for description or instructions</h3>
-                <p class="text-about-us"><span style="display: block;">Body text for your whole article or post. We'll put in some lorem ipsum to show how a filled-out page might look:</span> <br> Excepteur efficient emerging, minim veniam anim aute carefully curated Ginza conversation exquisite perfect nostrud nisi intricate Content. Qui  international first-class nulla ut. Punctual adipisicing, essential lovely queen tempor eiusmod irure. Exclusive izakaya charming Scandinavian impeccable aute quality of life soft power pariatur Melbourne occaecat discerning. Qui wardrobe aliquip, et Porter destination Toto remarkable officia Helsinki excepteur Basset hound. Zürich sleepy perfect consectetur.</p>
-            </div>
-            <img style="border-radius: 8px;" src="/assets/about us page/about-us-image.png" alt="About us">
+    
+    <main class="container main">
+        <div class="root-about_us">
+                <div id="roo-text">
+                    <h1 class="text-change">Vegetables</h1>
+                    <h1 class="text-change">Fruits</h1>
+                    <h1 class="text-change">Product .</h1>
+                </div>
+            <img src="../assets/images/about us page/about-us-header.png" alt="header image">
         </div>
-    </section>
 
-    <main class="container">
+        <!-- section 1 -->
+        <section class="container_about">
+            <div class="about_section-1">
+                <h2>About us</h2>
+                <div class="about_section-1-content">
+                    <div class="about_content-text">
+                        <p>Welcome to our <span>Glossary!</span> Here, we've gathered key terms and definitions related to the fruits, vegetables, and health topics we offer on our platform. Whether you're a seasoned shopper or new to healthy eating, understanding the language of fresh produce is essential.</p>
+                    </div>      
+                    <img src="../assets/images/about us page/About_us_page-pana-removebg-preview.png" alt="">
+                </div>
+
+                <div class="about_section-2-content about_section-1-content">
+                    <div class="about_content-text">
+                        <p>Our glossary provides easy-to-understand definitions of the various fruits, vegetables, and terms we use to describe our products, from organic and local farming practices to nutrition-packed varieties and sustainable harvesting methods. It’s an essential resource to help you make informed choices about your food.</p>
+                    </div>
+                    <img src="../assets/images/about us page/Team_work-bro-removebg-preview.png" alt="">
+                </div>
+
+                <div class="about_section-1-content">
+                    <div class="about_content-text">
+                        <p>Additionally, be sure to check out our blog, where we dive deeper into the health benefits, recipes, and tips for making the most out of your produce. From how to choose the right fruit for your smoothie to understanding the vitamins in your vegetables, our content will equip you with knowledge to boost your wellbeing.</p>
+                    </div>
+                    <img src="../assets/images/about us page/To_do_list-cuate-removebg-preview.png" alt="">
+                </div>
+            </div>
+        </section>
+
         <!-- section contact -->
-        <section style="margin-top: 32px;">
-            <h2 style="font-size: 32px; font-weight: 600;">Contact me</h2>
-
+        <section style="margin-top: 4rem;">
+            <h2>Contact me</h2>
             <!-- Contact form -->
             <form class="form">
                 <div class="form-flex-row">
@@ -135,6 +160,7 @@
         </div>
       </footer>
 
-    <script src="/script.js"></script>
+    <script type="module" src="/js/script.js"></script>
+    <script type="module" src="/js/pages/about-us.js"></script>
 </body>
 </html>
