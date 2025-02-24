@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Article</title>
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/style.css">
     <script src="https://kit.fontawesome.com/3f18c6ef35.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -37,56 +37,21 @@
     </nav>
 </header>
 
+    <div class="article_banner">
+        <h2>Welcome to the Central Glossary blog!</h2>
+    </div>
     <main class="main container">
         <!-- Root section -->
-        <section>
-            <div style="margin-bottom: 80px;">
-                <h1 class="heading-1" style="margin-bottom: 24px;">Article or post title</h1>
-                <p class="sub-heading">Subheading that sets up context, shares more info about the author, or generally gets people psyched to keep reading</p>
-            </div>
-            <img class="hero-image-home" src="/assets/article page/Hero Image.png" alt="Root image">
-            <div class="text-content">
-                <p class="text" style="width: 842px; ">Body text for your whole article or post. We'll put in some lorem ipsum to show how a filled-out page might look: <br><br>
-                    
-                    Excepteur efficient emerging, minim veniam anim aute carefully curated Ginza conversation exquisite perfect nostrud nisi intricate Content. Qui  international first-class nulla ut. Punctual adipisicing, essential lovely queen tempor eiusmod irure. Exclusive izakaya charming Scandinavian impeccable aute quality of life soft power pariatur Melbourne occaecat discerning. Qui wardrobe aliquip, et Porter destination Toto remarkable officia Helsinki excepteur Basset hound. Zürich sleepy perfect consectetur.
-                    
-                    <br><br>Exquisite sophisticated iconic cutting-edge laborum deserunt Addis Ababa esse bureaux cupidatat id minim. Sharp classic the best commodo nostrud delightful. Conversation aute Rochester id. Qui sunt remarkable deserunt intricate airport handsome K-pop excepteur classic esse Asia-Pacific laboris.
-                    
-                    <span class="image-content">
-                        <img class="section-3-image" src="/assets/article page/Image-2.png" alt="image-2">
-                        <img class="section-3-image" src="/assets/article page/Image-1.png" alt="image-3">
-                    </span>
-                    Excepteur efficient emerging, minim veniam anim cloying aute carefully curated gauche. Espresso exquisite perfect nostrud nisi intricate. Punctual adipisicing Borzoi, essential lovely tempor eiusmod irure. Exclusive izakaya charming Quezon City impeccable aute quality of life soft power pariatur occaecat discerning. Qui wardrobe aliquip, et Amadeus rock opera. <br><br>
-                    Exquisite sophisticated iconic cutting-edge laborum deserunt esse bureaux cupidatat id minim. Sharp classic the best commodo nostrud delightful. Conversation aute wifey id. Qui sunt remarkable deserunt intricate airport excepteur classic esse riot girl.
-                </p>
-                </div>
+        <section class="head_article">
+            <h2>Content</h2>
+            <p>In our fruit and vegetable articles, you'll find a smorgasbord of content, raning from mouth-watering recipes that highlight the best in seasonal produce to practical hints and tips for keeping your fruits and veggies fresher for longer.</p>
+            <p> We'll also dive into fascinating fruit and veg facts that will leave you in awe of the incredible variety and benefits these natural wonders have to offer.</p>
+            <p>So, grabs a basket, get ready to harvest some knowledge, and let's embark on this delicious journey together!</p>
         </section>
-
-        <!-- Related articles or posts -->
-        <section style="margin-top: 150px;">
-            <h2 class="heading-2">Related articles or posts</h2>
-            <div class="article-card-lists">
-                <div class="article-card">
-                    <img class="article-card-image" src="/assets/article page/product-3.png" alt="image-4">
-                    <div class="article-card-info">
-                        <h3 class="card-caption">Title</h3>
-                        <p class="card-details">Author</p>
-                    </div>
-                </div>
-                <div class="article-card">
-                    <img class="article-card-image" src="/assets/article page/product-7.png" alt="image-5">
-                    <div class="article-card-info">
-                        <h3 class="card-caption">Title</h3>
-                        <p class="card-details">Author</p>
-                    </div>
-                </div>
-                <div class="article-card">
-                    <img class="article-card-image" src="/assets/article page/product-5.png" alt="image-6">
-                    <div class="article-card-info">
-                        <h3 class="card-caption">Title</h3>
-                        <p class="card-details">Author</p>
-                    </div>
-                </div>
+        <!-- section 1-->
+        <section>
+            <div class="card_article-list" id="renderArticle">
+                <!-- Article card render here -->
             </div>
         </section>
     </main>
@@ -138,8 +103,9 @@
               <p>&copy; Glossary, Inc.</p>
           </div>
         </div>
-      </footer>
+    </footer>
 
-    <script src="/script.js"></script>
+    <script type="module" src="/js/script.js"></script>
+    <script type="module" src="/js/pages/article.js"></script>
 </body>
 </html>
