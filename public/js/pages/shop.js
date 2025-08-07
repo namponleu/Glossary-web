@@ -311,7 +311,7 @@ document.addEventListener("DOMContentLoaded", function () {
 // });
 
 /* =========== Card Render =========== */
-import { CardComponent } from "components/CardComponent.js";
+import { CardComponent } from "/components/CardComponent.js";
 
 let fruits = [];
 let vegetables = [];
