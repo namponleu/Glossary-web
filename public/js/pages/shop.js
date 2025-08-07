@@ -312,7 +312,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 /* =========== Card Render =========== */
 // import { CardComponent } from "components/CardComponent.js";
-import { CardComponent } from "../../../components/CardComponent"
+import { CardComponent } from "../../components/CardComponent"
 let fruits = [];
 let vegetables = [];
 
