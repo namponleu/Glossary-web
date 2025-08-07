@@ -24,7 +24,7 @@ import { CardArticleComponent } from "/components/CardArticleComponent.js";
 
 const renderArticle = document.querySelector("#renderArticle");
 
-fetch("/public/data/article/articleData.json")
+fetch("/data/article/articleData.json")
   .then((res) => res.json())
   .then((articleData) => {
     articleData.forEach((data) => {

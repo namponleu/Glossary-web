@@ -323,8 +323,8 @@ document.addEventListener("DOMContentLoaded", async function () {
 
   // Load data from JSON
   [fruits, vegetables] = await Promise.all([
-    fetch("/public/data/products/fruits.json").then((res) => res.json()),
-    fetch("/public/data/products/vegetables.json").then((res) => res.json()),
+    fetch("/data/products/fruits.json").then((res) => res.json()),
+    fetch("/data/products/vegetables.json").then((res) => res.json()),
   ]);
 
   renderAllProducts();
