@@ -310,7 +310,6 @@ document.addEventListener('DOMContentLoaded', function() {
 /* =========== Card Render =========== */
 import { CardComponent } from "../../components/CardComponent.js";
 import { vegetables } from "../../data/products/vegetables.js";
-
 import { fruits } from "../../data/products/fruits.js";
 
 
