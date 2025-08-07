@@ -4,7 +4,7 @@
         "name": "Apple",
         "slug": "apple",
         "category": "Pome Fruits",
-        "image": "/public/assets/images/article page/apple.jpg",
+        "image": "../assets/images/article page/apple.jpg",
         "short_description": "A crisp, juicy fruit rich in fiber and antioxidants.",
         "long_description":
         "Apples are rich in fiber, vitamin C, and antioxidants, promoting heart health and aiding digestion.",
@@ -33,7 +33,7 @@
         "name": "Banana",
         "slug": "banana",
         "category": "Tropical Fruits",
-        "image": "/public/assets/images/article page/banana.jpg",
+        "image": "../assets/images/article page/banana.jpg",
         "short_description":
         "A soft and sweet fruit packed with potassium and fiber.",
         "long_description":
@@ -63,7 +63,7 @@
         "name": "Blueberries",
         "slug": "blueberries",
         "category": "Berries",
-        "image": "/public/assets/images/article page/blueberries.jpg",
+        "image": "../assets/images/article page/blueberries.jpg",
         "short_description":
         "A tiny superfood packed with antioxidants and vitamins.",
         "long_description":
@@ -93,7 +93,7 @@
         "name": "Mango",
         "slug": "mango",
         "category": "Tropical Fruits",
-        "image": "/public/assets/images/article page/mango.jpg",
+        "image": "../assets/images/article page/mango.jpg",
         "short_description":
         "A juicy tropical fruit rich in vitamins and antioxidants.",
         "long_description":
@@ -123,7 +123,7 @@
         "name": "Strawberries",
         "slug": "strawberries",
         "category": "Berries",
-        "image": "/public/assets/images/article page/strawberries.jpg",
+        "image": "../assets/images/article page/strawberries.jpg",
         "short_description": "A sweet and tangy berry packed with vitamin C.",
         "long_description":
         "Strawberries are a delicious and nutritious fruit rich in antioxidants, vitamin C, and fiber.",
@@ -152,7 +152,7 @@
         "name": "Orange",
         "slug": "orange",
         "category": "Citrus Fruits",
-        "image": "/public/assets/images/article page/orange.jpg",
+        "image": "../assets/images/article page/orange.jpg",
         "short_description": "A citrus fruit rich in vitamin C and antioxidants.",
         "long_description":
         "Oranges help boost immunity, improve skin health, and support heart function due to their high vitamin C content.",
@@ -181,7 +181,7 @@
         "name": "Watermelon",
         "slug": "watermelon",
         "category": "Melons",
-        "image": "/public/assets/images/article page/watermelon.jpg",
+        "image": "../assets/images/article page/watermelon.jpg",
         "short_description":
         "A hydrating fruit with high water content and essential nutrients.",
         "long_description":
@@ -211,7 +211,7 @@
         "name": "Pineapple",
         "slug": "pineapple",
         "category": "Tropical Fruits",
-        "image": "/public/assets/images/article page/pineapple.jpg",
+        "image": "../assets/images/article page/pineapple.jpg",
         "short_description":
         "A tropical fruit with a sweet and tangy flavor, rich in enzymes.",
         "long_description":
@@ -241,7 +241,7 @@
         "name": "Grapes",
         "slug": "grapes",
         "category": "Berries",
-        "image": "/public/assets/images/article page/grapes.jpg",
+        "image": "../assets/images/article page/grapes.jpg",
         "short_description":
         "Small, juicy fruits packed with antioxidants and vitamins.",
         "long_description":

@@ -678,7 +678,7 @@ h3 {
   height: 400px;
   padding: 150px 0 0;
   background: linear-gradient(hsla(0, 4%, 7%, 0.5), hsla(151.15, 95%, 29%, 90%)),
-    url("/public/assets/images/shop page/shop-banner.jpg");
+    url("./assets/images/shop page/shop-banner.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
