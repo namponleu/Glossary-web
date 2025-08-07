@@ -29,6 +29,20 @@ const linkAction = () => {
 navbarLinks.forEach( n => n.addEventListener('click', linkAction));
 
 
+// For the active status on page current stay location
+document.addEventListener('DOMContentLoaded', function () {
+    const links = document.querySelectorAll('.navbar__links');
+    const currentPage = window.location.pathname;
+
+    links.forEach(link => {
+        const linkHref = new URL(link.href).pathname;
+
+        if (currentPage.endsWith(linkHref)) {
+            link.classList.add('active');
+        }
+    });
+});
+
 
 
 

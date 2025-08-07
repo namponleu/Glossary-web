@@ -1,0 +1,269 @@
+[
+    {
+        "id": 1,
+        "name": "Apple",
+        "slug": "apple",
+        "category": "Pome Fruits",
+        "image": "/public/assets/images/article page/apple.jpg",
+        "short_description": "A crisp, juicy fruit rich in fiber and antioxidants.",
+        "long_description":
+        "Apples are rich in fiber, vitamin C, and antioxidants, promoting heart health and aiding digestion.",
+        "health_benefits": [
+        "Supports heart health",
+        "Aids digestion due to high fiber content",
+        "May lower the risk of diabetes",
+        "Good for weight management"
+        ],
+        "nutritional_values": {
+        "calories": 95,
+        "carbohydrates": "25g",
+        "fiber": "4g",
+        "vitamin_c": "14% of Daily Value"
+        },
+        "best_ways_to_consume": [
+        "Raw as a snack",
+        "In salads",
+        "As apple juice or cider",
+        "Baked into desserts"
+        ],
+        "created_at": "2025-02-15T10:30:00Z"
+    },
+    {
+        "id": 2,
+        "name": "Banana",
+        "slug": "banana",
+        "category": "Tropical Fruits",
+        "image": "/public/assets/images/article page/banana.jpg",
+        "short_description":
+        "A soft and sweet fruit packed with potassium and fiber.",
+        "long_description":
+        "Bananas provide quick energy and essential nutrients, including potassium, which supports heart and muscle function.",
+        "health_benefits": [
+        "Boosts energy levels",
+        "Promotes heart health with high potassium",
+        "Aids digestion and gut health",
+        "Helps regulate blood sugar levels"
+        ],
+        "nutritional_values": {
+        "calories": 105,
+        "carbohydrates": "27g",
+        "fiber": "3g",
+        "potassium": "422mg"
+        },
+        "best_ways_to_consume": [
+        "Eaten raw as a snack",
+        "Blended in smoothies",
+        "Added to oatmeal or cereal",
+        "Used in baking (banana bread)"
+        ],
+        "created_at": "2025-02-14T09:00:00Z"
+    },
+    {
+        "id": 3,
+        "name": "Blueberries",
+        "slug": "blueberries",
+        "category": "Berries",
+        "image": "/public/assets/images/article page/blueberries.jpg",
+        "short_description":
+        "A tiny superfood packed with antioxidants and vitamins.",
+        "long_description":
+        "Blueberries are loaded with antioxidants that improve brain function and heart health while reducing inflammation.",
+        "health_benefits": [
+        "Boosts brain function and memory",
+        "Reduces the risk of heart disease",
+        "Rich in antioxidants for anti-aging",
+        "Supports a healthy immune system"
+        ],
+        "nutritional_values": {
+        "calories": 84,
+        "carbohydrates": "21g",
+        "fiber": "3.6g",
+        "vitamin_c": "24% of Daily Value"
+        },
+        "best_ways_to_consume": [
+        "Eaten fresh or frozen",
+        "Mixed in yogurt or oatmeal",
+        "Blended into smoothies",
+        "Used in desserts like muffins or pies"
+        ],
+        "created_at": "2025-02-13T08:45:00Z"
+    },
+    {
+        "id": 4,
+        "name": "Mango",
+        "slug": "mango",
+        "category": "Tropical Fruits",
+        "image": "/public/assets/images/article page/mango.jpg",
+        "short_description":
+        "A juicy tropical fruit rich in vitamins and antioxidants.",
+        "long_description":
+        "Mangoes provide a high amount of vitamin C and A, supporting immunity and skin health.",
+        "health_benefits": [
+        "Rich in vitamin A for eye health",
+        "Boosts immunity with high vitamin C",
+        "Aids digestion with fiber and enzymes",
+        "Supports glowing skin"
+        ],
+        "nutritional_values": {
+        "calories": 99,
+        "carbohydrates": "25g",
+        "fiber": "2.6g",
+        "vitamin_c": "67% of Daily Value"
+        },
+        "best_ways_to_consume": [
+        "Eaten fresh as a snack",
+        "Blended into smoothies",
+        "Used in fruit salads",
+        "Added to salsas or chutneys"
+        ],
+        "created_at": "2025-02-12T12:10:00Z"
+    },
+    {
+        "id": 5,
+        "name": "Strawberries",
+        "slug": "strawberries",
+        "category": "Berries",
+        "image": "/public/assets/images/article page/strawberries.jpg",
+        "short_description": "A sweet and tangy berry packed with vitamin C.",
+        "long_description":
+        "Strawberries are a delicious and nutritious fruit rich in antioxidants, vitamin C, and fiber.",
+        "health_benefits": [
+        "Boosts immune system with high vitamin C",
+        "Promotes heart health",
+        "Supports healthy skin",
+        "Contains anti-inflammatory properties"
+        ],
+        "nutritional_values": {
+        "calories": 50,
+        "carbohydrates": "12g",
+        "fiber": "3g",
+        "vitamin_c": "97% of Daily Value"
+        },
+        "best_ways_to_consume": [
+        "Eaten fresh as a snack",
+        "Added to yogurt or cereal",
+        "Blended into smoothies",
+        "Used in desserts like cakes and ice cream"
+        ],
+        "created_at": "2025-02-11T15:20:00Z"
+        },
+    {
+        "id": 6,
+        "name": "Orange",
+        "slug": "orange",
+        "category": "Citrus Fruits",
+        "image": "/public/assets/images/article page/orange.jpg",
+        "short_description": "A citrus fruit rich in vitamin C and antioxidants.",
+        "long_description":
+        "Oranges help boost immunity, improve skin health, and support heart function due to their high vitamin C content.",
+        "health_benefits": [
+        "Strengthens the immune system",
+        "Supports skin health and collagen production",
+        "Promotes heart health",
+        "Aids digestion and hydration"
+        ],
+        "nutritional_values": {
+        "calories": 62,
+        "carbohydrates": "15g",
+        "fiber": "3g",
+        "vitamin_c": "92% of Daily Value"
+        },
+        "best_ways_to_consume": [
+        "Freshly squeezed juice",
+        "Eaten raw as a snack",
+        "Added to fruit salads",
+        "Used in sauces and marinades"
+        ],
+        "created_at": "2025-02-10T14:10:00Z"
+    },
+    {
+        "id": 7,
+        "name": "Watermelon",
+        "slug": "watermelon",
+        "category": "Melons",
+        "image": "/public/assets/images/article page/watermelon.jpg",
+        "short_description":
+        "A hydrating fruit with high water content and essential nutrients.",
+        "long_description":
+        "Watermelon is a refreshing summer fruit packed with hydration, vitamins, and antioxidants that promote heart health and muscle recovery.",
+        "health_benefits": [
+        "Keeps you hydrated",
+        "Supports heart health",
+        "Rich in antioxidants like lycopene",
+        "Aids muscle recovery after exercise"
+        ],
+        "nutritional_values": {
+        "calories": 46,
+        "carbohydrates": "12g",
+        "fiber": "0.6g",
+        "vitamin_c": "21% of Daily Value"
+        },
+        "best_ways_to_consume": [
+        "Eaten fresh in slices",
+        "Blended into juice or smoothies",
+        "Added to fruit salads",
+        "Used in summer cocktails"
+        ],
+        "created_at": "2025-02-09T13:50:00Z"
+    },
+    {
+        "id": 8,
+        "name": "Pineapple",
+        "slug": "pineapple",
+        "category": "Tropical Fruits",
+        "image": "/public/assets/images/article page/pineapple.jpg",
+        "short_description":
+        "A tropical fruit with a sweet and tangy flavor, rich in enzymes.",
+        "long_description":
+        "Pineapples contain bromelain, an enzyme that aids digestion and reduces inflammation, while also providing vitamin C for immunity.",
+        "health_benefits": [
+        "Aids digestion with bromelain",
+        "Boosts immune function",
+        "Supports skin health",
+        "May reduce inflammation"
+        ],
+        "nutritional_values": {
+        "calories": 82,
+        "carbohydrates": "22g",
+        "fiber": "2.3g",
+        "vitamin_c": "131% of Daily Value"
+        },
+        "best_ways_to_consume": [
+        "Eaten fresh in chunks",
+        "Blended into smoothies",
+        "Grilled for a caramelized taste",
+        "Used in tropical fruit salads"
+        ],
+        "created_at": "2025-02-08T11:30:00Z"
+    },
+    {
+        "id": 9,
+        "name": "Grapes",
+        "slug": "grapes",
+        "category": "Berries",
+        "image": "/public/assets/images/article page/grapes.jpg",
+        "short_description":
+        "Small, juicy fruits packed with antioxidants and vitamins.",
+        "long_description":
+        "Grapes contain powerful antioxidants like resveratrol, which support heart health and may reduce inflammation.",
+        "health_benefits": [
+        "Supports heart health",
+        "Contains anti-aging antioxidants",
+        "Promotes brain function",
+        "Boosts immune system"
+        ],
+        "nutritional_values": {
+        "calories": 69,
+        "carbohydrates": "18g",
+        "fiber": "0.9g",
+        "vitamin_c": "27% of Daily Value"
+        },
+        "best_ways_to_consume": [
+        "Eaten fresh as a snack",
+        "Used in fruit salads",
+        "Blended into juices",
+        "Dried as raisins"
+        ],
+        "created_at": "2025-02-07T10:15:00Z"
+    }
+]
