@@ -20,7 +20,7 @@ window.addEventListener("scroll", function () {
 });
 
 // import { CardArticleComponent } from "/components/CardArticleComponent.js";
-import { CardArticleComponent } from "../../components/CardArticleComponent.js";
+import { CardArticleComponent } from "/components/CardArticleComponent.js";
 
 const renderArticle = document.querySelector("#renderArticle");
 
