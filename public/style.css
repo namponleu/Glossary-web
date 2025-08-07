@@ -832,7 +832,7 @@ p {
       hsla(150.18, 70.58%, 30.2%, 0.4),
       hsla(12.18, 13.58%, 0.5%, 0.1)
     ),
-    url("/public/assets/images/article page/article-head-image.jpg");
+    url("./assets/images/article page/article-head-image.jpg");
   background-position: center;
   background-repeat: no-repeat;
   object-fit: cover;

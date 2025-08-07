@@ -6,7 +6,7 @@
     "unit": "kg",
     "price": 1.99,
     "category": "Vegetables",
-    "image": "/public/assets/images/vegetables/carrot.jpg",
+    "image": "../assets/images/vegetables/carrot.jpg",
     "rating": 4.8
     },
     {
@@ -16,7 +16,7 @@
     "unit": "kg",
     "price": 3.5,
     "category": "Vegetables",
-    "image": "/public/assets/images/vegetables/broccoli.jpg",
+    "image": "../assets/images/vegetables/broccoli.jpg",
     "rating": 4.7
     },
     {
@@ -26,7 +26,7 @@
     "unit": "kg",
     "price": 2.8,
     "category": "Vegetables",
-    "image": "/public/assets/images/vegetables/tomatoes.jpg",
+    "image": "../assets/images/vegetables/tomatoes.jpg",
     "rating": 4.6
     },
     {
@@ -36,7 +36,7 @@
     "unit": "kg",
     "price": 2.99,
     "category": "Vegetables",
-    "image": "/public/assets/images/vegetables/spinach.jpg",
+    "image": "../assets/images/vegetables/spinach.jpg",
     "rating": 4.9
     },
     {
@@ -46,7 +46,7 @@
     "unit": "kg",
     "price": 3.99,
     "category": "Vegetables",
-    "image": "/public/assets/images/vegetables/green-bell-pepper.jpg",
+    "image": "../assets/images/vegetables/green-bell-pepper.jpg",
     "rating": 4.8
     },
     {
@@ -56,7 +56,7 @@
     "unit": "kg",
     "price": 1.99,
     "category": "Vegetables",
-    "image": "/public/assets/images/vegetables/cucumber.jpg",
+    "image": "../assets/images/vegetables/cucumber.jpg",
     "rating": 4.7
     },
     {
@@ -66,7 +66,7 @@
     "unit": "kg",
     "price": 1.5,
     "category": "Vegetables",
-    "image": "/public/assets/images/vegetables/onion.jpg",
+    "image": "../assets/images/vegetables/onion.jpg",
     "rating": 4.6
     },
     {
@@ -76,7 +76,7 @@
     "unit": "kg",
     "price": 2.5,
     "category": "Vegetables",
-    "image": "/public/assets/images/vegetables/potatoes.jpg",
+    "image": "../assets/images/vegetables/potatoes.jpg",
     "rating": 4.8
     },
     {
@@ -86,7 +86,7 @@
     "unit": "kg",
     "price": 2.99,
     "category": "Vegetables",
-    "image": "/public/assets/images/vegetables/garlic.jpg",
+    "image": "../assets/images/vegetables/garlic.jpg",
     "rating": 4.9
     },
     {
@@ -96,7 +96,7 @@
     "unit": "kg",
     "price": 1.99,
     "category": "Vegetables",
-    "image": "/public/assets/images/vegetables/green-leaf-lettuce.jpg",
+    "image": "../assets/images/vegetables/green-leaf-lettuce.jpg",
     "rating": 4.7
     },
     {
@@ -106,7 +106,7 @@
     "unit": "kg",
     "price": 5.99,
     "category": "Vegetables",
-    "image": "/public/assets/images/vegetables/baby-bella-mushrooms-packaged.jpg",
+    "image": "../assets/images/vegetables/baby-bella-mushrooms-packaged.jpg",
     "rating": 4.9
     },
     {
@@ -116,7 +116,7 @@
     "unit": "kg",
     "price": 2.99,
     "category": "Vegetables",
-    "image": "/public/assets/images/vegetables/eggplant.jpg",
+    "image": "../assets/images/vegetables/eggplant.jpg",
     "rating": 4.7
     },
     {
@@ -126,7 +126,7 @@
     "unit": "kg",
     "price": 2.89,
     "category": "Vegetables",
-    "image": "/public/assets/images/vegetables/celery.jpg",
+    "image": "../assets/images/vegetables/celery.jpg",
     "rating": 4.6
     },
     {
@@ -136,7 +136,7 @@
     "unit": "kg",
     "price": 3.1,
     "category": "Vegetables",
-    "image": "/public/assets/images/vegetables/green-zucchini.jpg",
+    "image": "../assets/images/vegetables/green-zucchini.jpg",
     "rating": 4.8
     },
     {
@@ -146,7 +146,7 @@
     "unit": "kg",
     "price": 3.99,
     "category": "Vegetables",
-    "image": "/public/assets/images/vegetables/cauliflower.jpg",
+    "image": "../assets/images/vegetables/cauliflower.jpg",
     "rating": 4.7
     },
     {
@@ -156,7 +156,7 @@
     "unit": "kg",
     "price": 2.79,
     "category": "Vegetables",
-    "image": "/public/assets/images/vegetables/green-cabbage.jpg",
+    "image": "../assets/images/vegetables/green-cabbage.jpg",
     "rating": 4.8
     },
     {
@@ -166,7 +166,7 @@
     "unit": "kg",
     "price": 1.99,
     "category": "Vegetables",
-    "image": "/public/assets/images/vegetables/red-radish.jpg",
+    "image": "../assets/images/vegetables/red-radish.jpg",
     "rating": 4.7
     },
     {
@@ -176,7 +176,7 @@
     "unit": "kg",
     "price": 5.49,
     "category": "Vegetables",
-    "image": "/public/assets/images/vegetables/asparagus.jpg",
+    "image": "../assets/images/vegetables/asparagus.jpg",
     "rating": 4.9
     },
     {
@@ -186,7 +186,7 @@
     "unit": "kg",
     "price": 3.29,
     "category": "Vegetables",
-    "image": "/public/assets/images/vegetables/sweet-corn.jpg",
+    "image": "../assets/images/vegetables/sweet-corn.jpg",
     "rating": 4.8
     },
     {
@@ -196,7 +196,7 @@
     "unit": "kg",
     "price": 2.99,
     "category": "Vegetables",
-    "image": "/public/assets/images/vegetables/beetroot.jpg",
+    "image": "../assets/images/vegetables/beetroot.jpg",
     "rating": 4.7
     },
     {
@@ -206,7 +206,7 @@
     "unit": "kg",
     "price": 4.99,
     "category": "Vegetables",
-    "image": "/public/assets/images/vegetables/brussels-sprouts.jpg",
+    "image": "../assets/images/vegetables/brussels-sprouts.jpg",
     "rating": 4.8
     },
     {
@@ -216,7 +216,7 @@
     "unit": "kg",
     "price": 4.29,
     "category": "Vegetables",
-    "image": "/public/assets/images/vegetables/sweet-pumpkin.jpg",
+    "image": "../assets/images/vegetables/sweet-pumpkin.jpg",
     "rating": 4.9
     },
     {
@@ -226,7 +226,7 @@
     "unit": "kg",
     "price": 3.89,
     "category": "Vegetables",
-    "image": "/public/assets/images/vegetables/green-beans.jpg",
+    "image": "../assets/images/vegetables/green-beans.jpg",
     "rating": 4.7
     },
     {
@@ -236,7 +236,7 @@
     "unit": "kg",
     "price": 2.99,
     "category": "Vegetables",
-    "image": "/public/assets/images/vegetables/leeks.jpg",
+    "image": "../assets/images/vegetables/leeks.jpg",
     "rating": 4.8
     },
     {
@@ -246,7 +246,7 @@
     "unit": "kg",
     "price": 2.69,
     "category": "Vegetables",
-    "image": "/public/assets/images/vegetables/turnip.jpg",
+    "image": "../assets/images/vegetables/turnip.jpg",
     "rating": 4.7
     },
     {
@@ -256,7 +256,7 @@
     "unit": "kg",
     "price": 3.59,
     "category": "Vegetables",
-    "image": "/public/assets/images/vegetables/green-kale.jpg",
+    "image": "../assets/images/vegetables/green-kale.jpg",
     "rating": 4.9
     },
     {
@@ -266,7 +266,7 @@
     "unit": "kg",
     "price": 2.99,
     "category": "Vegetables",
-    "image": "/public/assets/images/vegetables/chili-pepper.jpg",
+    "image": "../assets/images/vegetables/chili-pepper.jpg",
     "rating": 4.8
     },
     {
@@ -276,7 +276,7 @@
     "unit": "kg",
     "price": 1.79,
     "category": "Vegetables",
-    "image": "/public/assets/images/vegetables/scallion.jpg",
+    "image": "../assets/images/vegetables/scallion.jpg",
     "rating": 4.7
     },
     {
@@ -286,7 +286,7 @@
     "unit": "kg",
     "price": 3.29,
     "category": "Vegetables",
-    "image": "/public/assets/images/vegetables/baby-bok-choy.jpg",
+    "image": "../assets/images/vegetables/baby-bok-choy.jpg",
     "rating": 4.8
     },
     {
@@ -296,7 +296,7 @@
     "unit": "kg",
     "price": 4.79,
     "category": "Vegetables",
-    "image": "/public/assets/images/vegetables/artichoke.jpg",
+    "image": "../assets/images/vegetables/artichoke.jpg",
     "rating": 4.9
     }
 ]
