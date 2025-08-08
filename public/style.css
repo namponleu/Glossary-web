@@ -185,7 +185,7 @@ h3 {
 .card_buy {
   padding: 0 0.5rem 0.5rem 0;
   color: var(--primary-color);
-  font-size: var(--h2-font-size);
+  font-size: var(--h3-font-size);
   cursor: pointer;
 }
 .card_buy:hover {
